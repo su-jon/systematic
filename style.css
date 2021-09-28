@@ -773,6 +773,15 @@ Copyright Area CSS
     width: 60%;
 }
 
+.left_copyright p a {
+    color: #b92d1f;
+    text-decoration: none;
+}
+
+.left_copyright p a:hover {
+    color: #000;
+}
+
 .right_copyright {
     float: right;
     width: 40%;
