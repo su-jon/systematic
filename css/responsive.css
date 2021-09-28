@@ -1,0 +1,41 @@
+/* Tablet Layout */
+@media only screen and (min-width:200px) and (max-width:991px) {
+    .social_area {max-width: 350px;}
+    .inner_menu {background: none;min-height: auto;padding: 0;}
+    .inner_menu::after {background: none;}
+    .mean-container .mean-nav {width: 80%;margin-top: 0px;}
+    .inner_header {padding:18px 0 0px 0;}
+    .social_area {padding-top: 8px;}
+    .inner_banner h2 {font-size: 55px;}
+    .child_service .service_image {margin-top: 10px;}
+    .child_service .service_text {max-width: 70%;}
+    .about_area h2, .service_area h2, .testimonial_area h2 {font-size: 20px;}
+    .child_footer h6 {margin-bottom: 5px;}
+}
+
+
+
+/* Mobile Layout */
+@media only screen and (min-width:200px) and (max-width:480px) {
+    .mini_menu {width: 100%;margin-bottom: 20px;}
+    .mini_menu ul {text-align: center;}
+    .search_area {float: none;width: 215px;margin: 0 auto;}
+    .logo_area {float: none;width: 215px;margin: 0 auto;}
+    .social_area{float: none; margin: 0 auto;}
+    .social_area ul {text-align: center;}
+    .social_area ul li {margin-left: 0;padding: 0 5px;}
+    .inner_banner h2 {font-size: 40px;text-align: left;}
+    .inner_banner a, .child_testimonial a{float: none;}
+    .inner_banner {margin-bottom: 33px;}
+    .work_row {width: 100%;float: none;}
+    .about_area a {float: none;margin-bottom: 25px}
+    .child_service .service_image {margin-top: 5px;}
+    .service_area a {float: none;padding-bottom: 25px;}
+    .child_testimonial {margin-bottom: 33px;}
+    .about_area h2, .service_area h2, .testimonial_area h2 {text-align: center;margin-bottom: 25px;}
+    .alignleft{float: none;margin-right: 0px;margin-bottom: 0px;}
+    .child_footer {margin: 40px 0px;width: 100%;float: none;}
+    #footer_area {padding: 0 5px;}
+    .child_blog a {float: none;}
+    .left_copyright, .right_copyright{float: none;width: 100%;text-align: center;}
+}
